@@ -111,15 +111,3 @@ if length(b_homo) > 2
 end
 
 end
-
-function [xsp] = findxsp(x)
-xsp = x;
-xsp(7) = 0.5;
-xsp(8:12) = 0.2; xsp(13) = 0;
-xsp(14:21) = 1/7;
-xsp(22:37) = 1/16;
-xsp(38:44) = 1/7;
-xsp(46:59) = 1/14; xsp(45) = 0;
-xsp(60:65) = 1/6;
-xsp(67:107) = 1/41; xsp(66) = 0;
-end
